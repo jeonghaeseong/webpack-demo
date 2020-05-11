@@ -1,9 +1,11 @@
 const path = require('path');
 
 module.exports = {
+    mode: 'development',
     entry: './src/index.ts',
     devtool: 'inline-source-map',
     module: {
+        noParse: /jquery|lodash/,
         rules: [
             {
                 test: /\.tsx?$/,
