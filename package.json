@@ -18,7 +18,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "elliptic": ">=6.5.3"
+    "lodash": ">=4.17.19"
   }
 }
